@@ -148,6 +148,7 @@ body {
   margin-left: -4%;
   height: 3rem;
   z-index: 100;
+  opacity: 1;
 }
 
 .primary-nav .logo img {
@@ -233,6 +234,7 @@ body {
 
 .landing .intro-title .intro-title-1 {
   top: -30%;
+  opacity: 1;
 }
 
 .landing .intro-title .intro-subtitle {
@@ -549,11 +551,13 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
+  -webkit-filter: sepia(0.8);
+          filter: sepia(0.8);
 }
 
 .feed .feed-img img:hover {
-  -webkit-filter: sepia(0.8);
-          filter: sepia(0.8);
+  -webkit-filter: none;
+          filter: none;
 }
 
 .contact {

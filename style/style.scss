@@ -180,6 +180,7 @@ body{
         margin-left: -4%;
         height: 3rem;
         z-index: 100;
+        opacity: 1;
 
         img{
             object-fit: cover;
@@ -250,6 +251,7 @@ body{
 
         .intro-title-1{
             top: -30%;
+            opacity: 1;
         }
 
         .intro-subtitle{
@@ -467,9 +469,10 @@ body{
             width: 50%;
             object-fit: cover;
             cursor: pointer;
+            filter: sepia(.8);
 
             &:hover{
-                filter: sepia(.8);
+                filter: none;
             }
         }
     }
