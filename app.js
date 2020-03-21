@@ -86,7 +86,6 @@ let scene1 = new ScrollMagic.Scene({
     offset: 300
 })
     .setTween(tl2)
-    .addIndicators()
     .addTo(controller);
 
 //-------------------Scene-2-------------------//
@@ -113,7 +112,6 @@ let scene2 = new ScrollMagic.Scene({
     offset: "200"
 })
     .setTween(tl3)
-    .addIndicators()
     .addTo(controller);
 
 //-------------------Scene-3-------------------//
@@ -130,7 +128,6 @@ let scene3 = new ScrollMagic.Scene({
     offset: 300
 })
     .setTween(tl4)
-    .addIndicators()
     .addTo(controller);
 
 //-------------------Scene-4-------------------//
@@ -157,7 +154,6 @@ let scene4 = new ScrollMagic.Scene({
     offset: "300"
 })
     .setTween(tl5)
-    .addIndicators()
     .addTo(controller);
 
 //-------------------Scene-5-------------------//
@@ -175,7 +171,6 @@ let scene5 = new ScrollMagic.Scene({
 
 })
     .setTween(tl6)
-    .addIndicators()
     .addTo(controller);
 
 //-------------------Scene-6-------------------//
@@ -194,5 +189,4 @@ let scene6 = new ScrollMagic.Scene({
 
 })
     .setTween(tl7)
-    .addIndicators()
     .addTo(controller);
